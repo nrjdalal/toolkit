@@ -1,6 +1,6 @@
 {
   "name": "@nrjdalal/toolkit",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nrjdalal/nuid.git"
+    "url": "git+https://github.com/nrjdalal/toolkit.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nrjdalal/nuid/issues"
+    "url": "https://github.com/nrjdalal/toolkit/issues"
   },
-  "homepage": "https://github.com/nrjdalal/nuid#readme"
+  "homepage": "https://github.com/nrjdalal/toolkit#readme"
 }
