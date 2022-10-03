@@ -1,3 +1,3 @@
-import { nuid } from '@nrjdalal/nuid'
+import { nuid } from '@nrjdalal/toolkit'
 
 console.log(nuid())
