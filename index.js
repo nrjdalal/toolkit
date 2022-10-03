@@ -1,4 +1,4 @@
-module.exports = function nuid(timestamp = true, length = '8') {
+const nuid = (timestamp = true, length = '8') => {
   const timestampGen = () => {
     const string = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
     const date = new Date()
@@ -33,3 +33,5 @@ module.exports = function nuid(timestamp = true, length = '8') {
 
   return timestamp + xid
 }
+
+module.exports = nuid
